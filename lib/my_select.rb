@@ -1,4 +1,3 @@
-
 def my_select(array)
   i = 0
   new_array = []
@@ -6,7 +5,6 @@ def my_select(array)
     if yield(array[i]) == true
       new_array << array[i]
     else
-      #nothing
     end
     i += 1
   end
